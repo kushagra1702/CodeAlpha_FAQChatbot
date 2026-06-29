@@ -1,22 +1,69 @@
+# 🤖 CodeAlpha Smart FAQ Chatbot
 
-# CodeAlpha FAQ Chatbot
+A Python-based FAQ Chatbot developed as part of the **CodeAlpha Artificial Intelligence Internship**.
 
-An AI-powered FAQ chatbot that answers user queries using Natural Language Processing techniques.
+This chatbot uses Python's `difflib` library to intelligently match user questions with the closest FAQ instead of relying only on exact keyword matches.
 
-## Features
+---
 
-- FAQ matching
-- Natural language processing
-- Similarity-based response generation
-- Interactive chatbot interface
+## 🚀 Features
 
-## Technologies Used
+- Smart FAQ matching
+- Multiple questions in one session
+- Interactive console interface
+- Session statistics
+- Graceful exit option
+- Modular project structure
 
-- Python
-- Streamlit
-- NLTK
-- Scikit-learn
+---
 
-## Project Status
+## 🛠 Technologies Used
 
-🚧 Under Development
+- Python 3
+- difflib (Python Standard Library)
+
+---
+
+## 📂 Project Structure
+
+```
+FAQChatbot/
+│
+├── chatbot.py
+├── faq_data.py
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## ▶️ How to Run
+
+```bash
+python chatbot.py
+```
+
+---
+
+## 💬 Sample Questions
+
+- What is Python?
+- What is Artificial Intelligence?
+- What is Machine Learning?
+- Who developed Python?
+- What is GitHub?
+
+---
+
+## 👨‍💻 Author
+
+Kushagra
+
+GitHub:
+https://github.com/kushagra1702
+
+---
+
+## 📄 License
+
+Developed for educational and internship purposes.
